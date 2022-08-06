@@ -1,4 +1,4 @@
-const ethers = require("hardhat");
+const { ethers } = require("hardhat");
 const { WHITELIST_CONTRACT_ADDRESS, METADATA_URL } = require("../constants");
 require("dotenv").config({ path: ".env" });
 
